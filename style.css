@@ -17,3 +17,96 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+
+.section-services .service-item {
+	display: none;
+}
+
+.hero-content-style1 h2 {
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+.main-navigation .menu-item-69 a{
+    background: #df7f03;
+	color: #FFFFFF;
+}
+
+.main-navigation .menu-item-69{
+    padding-right: 20px;
+    background: #df7f03;
+}
+
+.coletivo-menu.coletivo-menu-mobile li.menu-item-69 {
+padding-right: 0px;
+}
+
+.section-videolightbox .videolightbox__heading {
+    font-weight: bold;
+	color: #FFF;
+}
+
+.feature-media .icon-image img {
+	max-width: 70%;
+}
+
+.section-inverse p.videolightbox-small-text {
+	font-size: 18px;
+    font-weight: 500;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.7;
+    text-transform: initial;
+    color: #FFF;
+    text-align: center;
+	margin-top: 15px;
+ 	
+}
+
+.section-contact.section-padding {
+    padding: 70px 0px 0px;
+}
+
+.section-contact {
+    background-color:#FFF;
+}
+
+.section-logos {
+    background-color:#FFF;
+}
+
+.section-contact .wow {
+	font-size: 1.2em;
+}
+
+.section-contact .wow h3 {
+	margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.logo-brava {
+    background: url(images/logo-rodape-brava.png) center center no-repeat;
+    width: 185px;
+    height: 95px;
+    text-indent: 999999px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.logo-wilsoncenter {
+    background: url(images/logo-rodape-wilsoncenter.png) center center no-repeat;
+    width: 185px;
+    height: 95px;
+    text-indent: 999999px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.logo-insitum {
+    background: url(images/logo-rodape-insitum.png) center center no-repeat;
+    width: 185px;
+    height: 95px;
+    text-indent: 999999px;
+    overflow: hidden;
+    display: inline-block;
+}

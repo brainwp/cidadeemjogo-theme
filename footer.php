@@ -9,22 +9,22 @@
  * @package coletivo
  */
 ?>
-    <section class="section-padding  section-meta onepage-section">
+    <section class="section-padding section-logos section-meta onepage-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <h5 class="follow-heading">Realizadores</h5>
                         <div class="col-sm-6">
-                            <span class="logo-brava">Logo Brava</span>
+                            <span class="logo-brava">Brava</span>
                         </div>
                         <div class="col-sm-6">
-                             <span class="logo-wilsoncenter">Logo Brazil Institute</span>
+                             <span class="logo-wilsoncenter">WilsonCenter</span>
                         </div>
                 </div>
                 <div class="col-sm-6">
                     <h5 class="follow-heading">Apoiadores</h5>
                         <div class="col-sm-6">
-                             <span class="logo-insitum">Logo Insitum</span>
+                             <span class="logo-insitum">Insitum</span>
                         </div>
                         <div class="col-sm-6">
                              <span></span>
