@@ -22,7 +22,7 @@
                         </div>
                 </div>
                 <div class="col-sm-6">
-                    <h5 class="follow-heading">Apoiadores</h5>
+                    <h5 class="follow-heading mobile-margin-top">Apoiadores</h5>
                         <div class="col-sm-6">
                              <span class="logo-insitum">Insitum</span>
                         </div>

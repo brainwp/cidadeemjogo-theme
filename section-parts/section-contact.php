@@ -42,7 +42,7 @@ if ( $coletivo_contact_cf7 || $coletivo_contact_text || $coletivo_contact_addres
                             <h3><?php if ($coletivo_contact_address_title != '') echo wp_kses_post($coletivo_contact_address_title); ?></h3>
                         <?php if ($coletivo_contact_text != '') echo wp_kses_post($coletivo_contact_text); ?>
                             <br/ ><br/ >
-                        <div class="address-box">
+                        <div class="address-box mobile-margin-bottom">
 
                             <?php if ($coletivo_contact_address != ''): ?>
                                 <div class="address-contact">

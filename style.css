@@ -27,18 +27,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     letter-spacing: 4px;
 }
 
-.main-navigation .menu-item-69 a{
+.main-navigation .btn-play a{
     background: #df7f03;
 	color: #FFFFFF;
 }
 
-.main-navigation .menu-item-69{
+.main-navigation .btn-play{
+	background: #df7f03;
     padding-right: 20px;
-    background: #df7f03;
+    padding-bottom: 15px;
 }
 
-.coletivo-menu.coletivo-menu-mobile li.menu-item-69 {
-padding-right: 0px;
+.coletivo-menu.coletivo-menu-mobile li.btn-play {
+	padding-right: 0px;
+	padding-bottom: 0px;
 }
 
 .section-videolightbox .videolightbox__heading {
@@ -109,4 +111,26 @@ padding-right: 0px;
     text-indent: 999999px;
     overflow: hidden;
     display: inline-block;
+}
+
+.coletivo-menu.coletivo-menu-mobile {
+    padding-top: 15px;
+}
+
+.mobile-margin-top {
+	margin-top: 0px;
+}
+
+.mobile-margin-bottom {
+	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 480px) {
+	.mobile-margin-top {
+		margin-top: 40px;
+	}
+
+	.mobile-margin-bottom {
+		margin-bottom: 40px;
+	}
 }
