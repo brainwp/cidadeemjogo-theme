@@ -26,21 +26,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     font-size: 45px;
     letter-spacing: 4px;
 }
-
-.main-navigation .btn-play a{
-    background: #df7f03;
-	color: #FFFFFF;
-}
-
-.main-navigation .btn-play{
-	background: #df7f03;
-    padding-right: 20px;
-    padding-bottom: 15px;
-}
-
-.coletivo-menu.coletivo-menu-mobile li.btn-play {
-	padding-right: 0px;
-	padding-bottom: 0px;
+.btn-play {
+	margin-top: 0.4em !important;
 }
 
 .section-videolightbox .videolightbox__heading {
@@ -136,4 +123,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	.mobile-margin-bottom {
 		margin-bottom: 40px;
 	}
+
+	.btn-play {
+	margin-top: 0em !important;
+	}
+
 }
