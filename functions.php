@@ -22,7 +22,7 @@ if ( ! function_exists( 'coletivo_site_header' ) ) {
                 <!-- .site-branding -->
                 <div class="header-right-wrapper">
                     <a href="#0" id="nav-toggle"><?php _e('Menu', 'coletivo'); ?><span></span></a>
-                    <div class="btn-play alignright"><a class="btn btn-theme-primary" href="http://13.58.122.3/cidadeemjogo/">Jogar</a></div>
+                    <div class="btn-play alignright"><a class="btn btn-theme-primary" onclick="goog_report_conversion ('http://13.58.122.3/cidadeemjogo/') href="http://13.58.122.3/cidadeemjogo/">Jogar</a></div>
                     <nav id="site-navigation" class="main-navigation alignright" role="navigation">
                         <ul class="coletivo-menu">
                             <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => '', 'items_wrap' => '%3$s')); ?>
