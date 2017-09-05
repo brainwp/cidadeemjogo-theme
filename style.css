@@ -163,6 +163,10 @@ h2.section-title {
     display: inline-block;
 }
 
+.site-footer {
+    font-size: 16px;
+}
+
 .coletivo-menu.coletivo-menu-mobile {
     padding-top: 15px;
 }
@@ -186,6 +190,14 @@ h2.section-title {
 
 	.btn-play {
 	margin-top: 0em !important;
+	}
+
+	.alignright {
+    margin-left: 1.5em;
+	}
+
+	.alignleft {
+	margin-right: 1.5em;
 	}
 
 }
