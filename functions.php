@@ -13,12 +13,12 @@ function coletivo_customize_after_register($wp_customize){
     /*------------------------------------------------------------------------*/
         $wp_customize->add_section( 'coletivo_play_settings',
             array(
-                'priority'       => 20,
+                'priority'       => 6,
                 'capability'     => 'edit_theme_options',
                 'theme_supports' => '',
                 'title'          => esc_html__( 'Link Jogar', 'coletivo' ),
                 'description'    => '',
-                'panel'          => 'coletivo_options',
+                'panel'          => 'theme_options',
             )
         );
 
