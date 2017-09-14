@@ -179,11 +179,6 @@ h2.section-title {
 	margin-bottom: 0px;
 }
 
-.feature-item {
-    min-height: 300px;
-    max-width: 49%;
-}
-
 @media screen and (max-width: 480px) {
 	.mobile-margin-top {
 		margin-top: 40px;
