@@ -27,7 +27,7 @@
                              <span class="logo-insitum">Insitum</span>
                         </div>
                         <div class="col-sm-6">
-                             <span></span>
+                             <span class="logo-bst">BST></span>
                         </div>
                 </div>
             </div>

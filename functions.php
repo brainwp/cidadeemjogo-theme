@@ -63,6 +63,7 @@ if ( ! function_exists( 'coletivo_site_header' ) ) {
                     $coletivo_jogar_text_link = get_theme_mod( 'coletivo_jogar_text_link' );
                 ?>
                     <a href="#0" id="nav-toggle"><?php _e('Menu', 'coletivo'); ?><span></span></a>
+
                     <div class="btn-play alignright">
                         <a class="btn btn-theme-primary" onclick="goog_report_conversion ('<?php  if ($coletivo_jogar_text_link != '') echo $coletivo_jogar_text_link; ?>')" href="<?php  if ($coletivo_jogar_text_link != '') echo $coletivo_jogar_text_link; ?>">Jogar
                         </a>
@@ -100,7 +101,7 @@ function insert_fb_in_head() {
         echo '<meta property="og:url" content="' . get_permalink() . '"/>';
         echo '<meta property="og:site_name" content=" ' . get_bloginfo() . '"/>';
     if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-        $default_image="http://cidadeemjogo.brasa.art.br/wp-content/uploads/sites/79/2017/08/cropped-CIDADE-EM-JOGO-logo-export.jpg";
+        $default_image="http://cidadeemjogo.org.br/wp-content/uploads/2017/08/CIDADE-EM-JOGO-logo-export.jpg";
         echo '<meta property="og:image" content="' . $default_image . '"/>';
     }
     else{

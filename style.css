@@ -163,6 +163,15 @@ h2.section-title {
     display: inline-block;
 }
 
+.logo-bst {
+    background: url(images/logo-rodape-bst.png) center center no-repeat;
+    width: 185px;
+    height: 95px;
+    text-indent: 999999px;
+    overflow: hidden;
+    display: inline-block;
+}
+
 .site-footer {
     font-size: 16px;
 }
