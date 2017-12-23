@@ -92,14 +92,14 @@ add_filter('language_attributes', 'add_opengraph_doctype');
 //Lets add Open Graph Meta Info
  
 function insert_fb_in_head() {
-    if ( ! is_front_page() ) { //if it is home page
+    if ( ! is_front_page() ) { //if it isn't home page
         return;
-        echo '<meta property="fb:admins" content="A4NjnfunWGV"/>';
-        echo '<meta property="og:title" content="' . get_the_title() . '"/>';
-        echo '<meta property="og:type" content="article"/>';
-        echo '<meta property="og:url" content="' . get_permalink() . '"/>';
-        echo '<meta property="og:site_name" content="CIDADE EM JOGO"/>';
-	    echo '<meta property="og:image" content="http://cidadeemjogo.org.br/wp-content/uploads/2017/08/CIDADE-EM-JOGO-logo-export.jpg"/>';
     }
+    echo '<meta property="fb:admins" content="A4NjnfunWGV"/>';
+    echo '<meta property="og:title" content="' . get_the_title() . '"/>';
+    echo '<meta property="og:type" content="article"/>';
+    echo '<meta property="og:url" content="' . get_permalink() . '"/>';
+    echo '<meta property="og:site_name" content="CIDADE EM JOGO"/>';
+    echo '<meta property="og:image" content="http://cidadeemjogo.org.br/wp-content/uploads/2017/08/CIDADE-EM-JOGO-logo-export.jpg"/>';
 }
 add_action( 'wp_head', 'insert_fb_in_head', 5 );
